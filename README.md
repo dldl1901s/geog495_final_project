@@ -1,4 +1,4 @@
-# geog495_final_project
+# Final Project
 
 - Project title
 - Project description
