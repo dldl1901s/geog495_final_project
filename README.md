@@ -6,19 +6,17 @@
     - I wanted to know how King County, where the University of Washington students, including myself, live, is geographically divided by race. I wanted to share how much we live separately by race.
 
 - The application URL (not the repository url)
-    - 
+    - https://dldl1901s.github.io/geog495_final_project/final.html
 
-- Screenshots
-    -
+- Screenshot
+    - ![sample]("img\screenshot.png")
 
 - Main functions
-    - 
+    - This map shows race-specific population information in the block when the user clicks the desired Census Block on the map. You can also see the population density of King County at a glance.
 
 - Data sources
-    - 
+    - https://gis-kingcounty.opendata.arcgis.com/
 
 - Applied libraries (e.g., mapbox gl js) and Web Services (e.g., github, basemap) in use
-    - 
+    - mapbox, gl, js, github
 
-- Acknowledgment
-    - 
