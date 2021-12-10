@@ -9,7 +9,7 @@
     - https://dldl1901s.github.io/geog495_final_project/final.html
 
 - Screenshot
-    - ![sample]("img\screenshot.png")
+    - ![sample](img\screenshot.png)
 
 - Main functions
     - This map shows race-specific population information in the block when the user clicks the desired Census Block on the map. You can also see the population density of King County at a glance.
