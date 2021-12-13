@@ -72,7 +72,9 @@
             color: rgba(255, 255, 255, 255);
         }
         #text {
-            margin-top: 50%;
+            bottom: 0;
+            position: fixed;
+            padding-bottom: 50px;
             color: rgba(255, 255, 255, 255);
         }
 
@@ -135,6 +137,8 @@
                         'fill-color': [
                             'step',
                             ['get', 'total_pop'],
+                            '#d9d9d9',
+                            1,
                             '#e0aaff',   // stop_output_0
                             500,          // stop_input_0
                             '#c77dff',   // stop_output_1
@@ -180,7 +184,7 @@
 
                 // create legend
                 const legend = document.getElementById('text');
-                text.innerHTML = "<br><b>Population<br></b><br>";
+                text.innerHTML = "<b>Population<br></b><br>";
 
 
                 layers.forEach((layer, i) => {
@@ -210,7 +214,7 @@
                     <div><b>Native American</b> :<br>${state[0].properties.american_indian}</div><br>
                     <div><b>Asian </b>:<br>${state[0].properties.asian}</div><br>
                     <div><b>Pacific Islander</b> :<br>${state[0].properties.pacific_islander}</div><br>
-                    <div><b>Other Races Alone</b> :<br>${state[0].properties.other_race_alone}</div><br>
+                    <div><b>Other Races Alone</b> :<br>${state[0].properties.other_race_alone}</div>
                     </div>`
             })
         }
